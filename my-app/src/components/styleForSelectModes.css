@@ -1,0 +1,62 @@
+.block{
+    padding-top: 5rem;
+}
+
+.block .mode{
+    height: 90vh;
+}
+
+.block .card{
+    height: 200px;
+}
+
+.block table{
+    width: 50%;
+}
+
+.block table:nth-child(2){
+    width: 50%;
+    text-align: left;
+}
+
+.table2{
+    width: 50%;
+}
+
+
+
+.table3{
+    width: 40%;
+}
+
+
+.table4{
+    width: 30%;
+}
+.table4 .card{
+    width: 20%;
+    height: 170px;
+}
+
+.block .card:hover{
+    box-shadow: 0px 0px 8px 10px gray;
+    transform: scale(1.1);
+    border: 2px solid black;
+}
+
+.block button{
+    font-size: 24px;
+    border: none;
+    padding: 1rem 2rem;
+    background-color: rgb(255, 31, 69);
+    color: white;
+    transition: 0.3s;   
+}
+
+.block button:hover{
+    transform: scale(1.1);
+    background-color: rgb(202, 81, 101);
+}
+td{
+    width: 50%;
+}
